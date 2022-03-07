@@ -1,0 +1,231 @@
+@font-face {
+	font-family: Raleway-Regular;
+	src:url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: Raleway-Bold;
+	src:url('../fonts/Raleway-Bold.ttf') format('truetype');
+}
+	
+@font-face {
+	font-family: Raleway-Regular;
+	src:url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+body {
+	background-color: #F0EFEF;
+	font-family: Raleway-Regular;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Raleway-Bold;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+header {
+	background-color: yellow;
+	min-height: 50px; /*min-height : tinggi di awal*/
+	border-bottom: 0 solid #e5e5e5; /*1px : ketebalan, solid: tipe border, warna*/
+	padding: 25px 0; /*padding: ngatur jarak box yang di dalam*/
+	box-shadow: 0 0 0 #000; /*horizontal, vertikal, tebal, warna*/
+	font-family: Raleway-Bold;
+
+}
+.container-fluid {
+	padding: 0 50px 0 280px;
+	color: #5DBB2D; 
+}
+.navbar-nav {
+	padding: 0 50px 0 200px;
+}
+.nav-item {
+	padding: 0 40px 0 40px;
+}
+.menu .bg-light {
+	background-color: #5DBB2D !important; 
+	/*important : ketika ada properties yang sama, 
+		dan ingin dijalankan pertama kali*/
+
+}
+.gambar-besar img {
+	width: 435px;
+}
+.gambar-besar{
+	float: left;
+}
+.artikel {
+	margin-left: 450px;
+}
+.box-putih {
+	padding: 17px;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+.box p:first-child{
+	margin-top: 7px;
+	text-align: center;
+	padding: 5px 30px 5px 30px;
+	position: relative;
+	background-color: #5DBB2D;
+	color: white; 
+	float: left;
+}
+
+.box p:last-child{
+	margin-top: 7px;
+	text-align: center;
+	padding: 5px 30px 5px 30px;
+	position: relative;
+	background-color: grey;
+	color: white; 
+	float: left; 
+}
+.menu ul.navbar-nav li.nav-item a {
+	color: white;
+}
+.slider {
+	width: 100%;
+}
+
+.slider img {
+	width: 100%;
+}
+
+.konten {
+	margin: 50px 0; /*margin: mengatur jarak antara box dengan box*/
+}
+
+.gambar img {
+	width: 341px;
+
+}
+
+.top-30 {
+	margin-top: 30px;
+}
+
+footer .footer-atas {
+	background-color: lightblue;
+	padding: 20px 0 30px 0;
+}
+footer .footer-atas .isi-artikel a {
+	color: red;
+	text-decoration: underline;
+}
+.top-20 {
+	margin: 20px 0 -40px 0;
+}
+.top-25 {
+	margin: 20px 20px 20px 20px;
+
+}
+.hijau-tosca {
+	background-color: lightgrey;
+}
+footer .footer-bawah {
+	padding: 5px 0 5px 0;
+}
+footer .footer-bawah p{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+.top-15 {
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+.lightpink {
+	background-color: lightpink;
+}
+.lightgreen {
+	background-color: lightcyan;
+}
+.margin {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+label {
+	font-weight: bold;
+}
+.gambar-kecil img {
+	width: 84px;
+	margin-top: 10px;
+
+}
+.how-to-order p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.how-to-order-2 p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+span.hijau {
+	color: green;
+}
+.how-to-order {
+	border-left: 1px solid #e5e5e5;
+	padding-left: 30px;
+}
+.cara-order-payment {
+	padding-left: 30px;
+}
+
+}@media screen and (max-width: 768px) {/*layar Tablet*/
+	.gambar img, .menu {
+		width: 100%;
+		margin-top: 20px;
+
+	}	
+	.gambar-kecil img {
+		width: 49px;
+	}
+	.menu {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 414px) {/*layar HandPhone*/
+	.gambar img, .menu {
+		width: 100%;
+
+	}	
+
+	.gambar-kecil img {
+		width: 92px;
+	}
+
+	.title-product {
+		margin-top: 20px;
+	}
+	.gambar {
+		width: 
+	}
+}
+/*min width : 1000px ke 0px*/
+/*max width : 0px ke 1000px*/
+
+.media img {
+	width: 130px;
+	height: 90px;
+}
+.media-body {
+	font-size: 13px;
+}
+.map img {
+	width: 800px;
+	height: 500px;
+}
+.tags {
+	margin: 10px 10px 10px 10px;
+	padding: 3px 5px 3px 5px;
+}
+
+.clear {
+	clear: both;
+	display: block;
+}

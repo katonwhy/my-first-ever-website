@@ -1,0 +1,149 @@
+header {
+	background-color: white;
+	min-height: 50px; /*min-height : tinggi di awal*/
+	border-bottom: 1px solid #e5e5e5; /*1px : ketebalan, solid: tipe border, warna*/
+	padding: 0px 0; /*padding: ngatur jarak box yang di dalam*/
+	box-shadow: 0 0 2px #000; /*horizontal, vertikal, tebal, warna*/
+}
+
+.keranjang-belanja {
+    position: relative;
+    float: right;
+    top: -38px;
+}
+
+li a:hover {
+    background-color: #85CDD8;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item2 a:hover {
+    background-color: white;
+    text-decoration: none;
+    color: white;
+}
+.logo-besar img{
+    width: 12%;
+    position: relative;
+    margin-left: 873px;
+    top: -32px;
+}
+.main-navbar {
+	top: 2px;
+}
+.navbar-nav {
+	padding: 0 50px 0 200px;
+}
+.nav-item {
+	padding: 0 40px 0 40px;
+	font-size: 18px;
+}
+.nav-item2 {
+	padding: 0 0px 0px 10px;
+}
+.navbar {
+	margin: 0 -235px 0px -42px;
+}
+.assassins-image img{
+    width: 100%;
+    margin-top: -60px;
+    z-index: -5;
+}
+.welcome-text {
+    background-color: hsla(36, -20%, 35%, 0.4);
+
+    color: white; 
+    width: 580px;
+    position: absolute;
+    top: 130px;
+    right: 254px;
+}
+.text-search {
+    border-style: solid;
+    border-color: grey;
+    width: 580px;
+    height: 40px;
+    text-align: center;
+}
+.games-list-type {
+    background-color: hsla(36, -20%, 35%, 0.4);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    /*top: -550px;*/
+    padding: 15px 10px 0px 10px; 
+
+}
+.games-list-type a:hover {
+	text-decoration: underline;
+	color: lightgrey;
+}
+.games-list-text p{
+  color : white;
+}
+.games-list-text h2{
+  color: white;
+}
+
+.logo-olshop {
+	position: relative;
+	top: -125px;
+	margin-left: -380px; 
+}
+.decoration {
+	position: relative;
+	top: -395px;
+	left: 0px;
+}
+.genre-games {
+	background-color: #F5F5F5;
+  padding: 15px;
+}
+.genre-games h6{
+  color: grey;
+}
+.dropshiper {
+  background-color: #F5F5F5;
+  padding: 15px;
+  margin-top: 45px;
+}
+.carousel-caption {
+  background-color: hsla(36, -20%, 35%, 0.7);
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+.footer-atas h6{
+  color: grey;
+}    
+.footer-atas p{
+  color: grey;
+}
+.footer-atas {
+  height: 270px;
+}    
+.footer-bawah {
+  background-color: #444444;
+  padding-top: 12px;
+}
+.footer-bawah p{
+  color: lightgrey;
+}
+.list-game table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.list-game td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.list-game th {
+  background-color: #f1f1f1;
+  padding: 12px; 
+}
+
+.list-game tr:hover{background-color:#f5f5f5}
+.list-game tr:hover{color:violet}
